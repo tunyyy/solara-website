@@ -1,89 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Solara Watches</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: sans-serif;
-      background-color: #f4f0e8;
-      color: #333;
-    }
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1rem 2rem;
-      background-color: #f4f0e8;
-      border-bottom: 1px solid #ccc;
-    }
-    header img {
-      height: 32px;
-    }
-    nav a {
-      margin-left: 1rem;
-      text-decoration: none;
-      color: #333;
-      font-weight: 600;
-    }
-    .hero {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 4rem 2rem;
-      text-align: center;
-    }
-    .hero img {
-      max-width: 300px;
-      margin-bottom: 2rem;
-    }
-    .hero h1 {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-    }
-    .hero p {
-      font-size: 1.2rem;
-      margin-bottom: 2rem;
-    }
-    .cta {
-      background-color: #000;
-      color: #fff;
-      padding: 1rem 2rem;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 4px;
-    }
-    footer {
-      text-align: center;
-      padding: 2rem;
-      font-size: 0.9rem;
-      color: #777;
-      background-color: #f4f0e8;
-      border-top: 1px solid #ccc;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <div>
-      <img src="solara-logo.png" alt="Solara Logo">
-    </div>
-    <nav>
-      <a href="#watches">Watches</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-  <section class="hero">
-    <img src="solara-watch.png" alt="Solara Skeleton Watch">
-    <h1>SOLARA</h1>
-    <p>Time Born from Light — Solar-powered. Skeleton automatic. Sustainably crafted.</p>
-    <a href="#shop" class="cta">SHOP NOW</a>
-  </section>
-  <footer>
-    &copy; 2025 Solara Watches. All rights reserved.
-  </footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOLARA</title>
+    <link rel="icon" href="favicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Playfair Display', serif;
+        background-color: #000;
+        color: #fff;
+        line-height: 1.6;
+      }
+
+      header {
+        padding: 2rem;
+        text-align: center;
+        background-color: #0a0a0a;
+      }
+
+      .logo {
+        max-width: 300px;
+        height: auto;
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 1.5rem;
+      }
+
+      nav a {
+        color: #ccc;
+        text-decoration: none;
+        font-size: 1rem;
+        transition: color 0.3s ease;
+      }
+
+      nav a:hover {
+        color: #fff;
+      }
+
+      .hero {
+        background-color: #111;
+        padding: 4rem 2rem;
+        text-align: center;
+      }
+
+      .hero h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .hero p {
+        font-size: 1.1rem;
+        color: #aaa;
+      }
+
+      .cta {
+        margin-top: 2rem;
+      }
+
+      .cta button {
+        background-color: #fff;
+        color: #000;
+        border: none;
+        padding: 0.8rem 2rem;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .cta button:hover {
+        background-color: #e0e0e0;
+      }
+
+      footer {
+        background-color: #0a0a0a;
+        text-align: center;
+        padding: 2rem;
+        font-size: 0.9rem;
+        color: #777;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="solara-logo.png" alt="SOLARA Logo" class="logo" />
+      <nav>
+        <a href="#collections">Collections</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Crafted for Timeless Elegance</h1>
+      <p>Experience luxury redefined through precision design and heritage.</p>
+      <div class="cta">
+        <button>Explore the Collection</button>
+      </div>
+    </section>
+
+    <footer>
+      &copy; 2025 SOLARA. All rights reserved.
+    </footer>
+  </body>
 </html>
